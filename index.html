@@ -3,95 +3,54 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>جانوموب — لوازم جانبی موبایل</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>جانومب | آداپتور اورجینال اپل</title>
+  <meta name="description" content="فروش تخصصی آداپتورهای اورجینال اپل (20W و 35W)">
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <div class="logo">Jano<span>Mob</span></div>
-        <div class="tag">لوازم جانبی موبایل</div>
-      </div>
-      <nav class="nav">
-        <a href="#products">محصولات</a>
-        <a href="#about">درباره ما</a>
-        <a href="#contact">تماس</a>
-        <button id="cartBtn" class="cart-btn">سبد (<span id="cartCount">0</span>)</button>
-      </nav>
-      <button class="menu-toggle" aria-label="باز کردن منو">☰</button>
-    </div>
+  <header class="nav">
+    <h1 class="brand">جانومب</h1>
+    <nav>
+      <a href="#products">محصولات</a>
+      <a href="#contact">تماس</a>
+    </nav>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="container hero-inner">
-        <div class="hero-text">
-          <h1>به جانوموب خوش آمدید</h1>
-          <p>بهترین لوازم جانبی موبایل با طراحی مدرن — ارسال سریع و گارانتی اصالت کالا</p>
-          <div class="hero-cta">
-            <a href="#products" class="btn primary">مشاهده محصولات</a>
-            <a href="#contact" class="btn ghost">تماس با ما</a>
-          </div>
-        </div>
-        <div class="hero-image" aria-hidden="true">
-          <!-- simple SVG phone with accessory -->
-          <svg viewBox="0 0 260 320" xmlns="http://www.w3.org/2000/svg">
-            <rect x="30" y="20" rx="22" ry="22" width="200" height="280" fill="#ffffff" stroke="#1e88e5" stroke-width="6"/>
-            <rect x="80" y="60" rx="6" ry="6" width="100" height="160" fill="#eaf4ff"/>
-            <circle cx="130" cy="240" r="10" fill="#1e88e5"/>
-          </svg>
-        </div>
+  <section class="hero">
+    <h2>فروش تخصصی <span class="glow">آداپتور اورجینال اپل</span></h2>
+    <p>۲۰ وات | ۳۵ وات | اصل و با گارانتی</p>
+    <a href="#products" class="btn">مشاهده محصولات</a>
+  </section>
+
+  <section id="products" class="container">
+    <h2>محصولات ما</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/20w.jpg" alt="آداپتور 20 وات اپل">
+        <h3>آداپتور 20W USB-C اپل</h3>
+        <p>مناسب آیفون ۱۱ تا ۱۵ | شارژ سریع PD</p>
+        <span class="price">تماس بگیرید</span>
       </div>
-    </section>
 
-    <section id="products" class="products container">
-      <h2 class="section-title">محصولات منتخب</h2>
-      <div class="product-grid" id="productGrid">
-        <!-- Products will be injected by JS -->
-      </div>
-    </section>
-
-    <section id="about" class="about container">
-      <h2 class="section-title">درباره جانوموب</h2>
-      <p>جانوموب فروشگاهی است تخصصی در زمینه لوازم جانبی موبایل: قاب، گلس، کابل، پاوربانک، هدفون و گجت‌های پرکاربرد. تمرکز ما روی کیفیت، طراحی و پشتیبانی مشتریان است.</p>
-    </section>
-
-    <section id="contact" class="contact container">
-      <h2 class="section-title">تماس با ما</h2>
-      <p>ایمیل: info@janomob.ir — تلفن: ۰۲۱-۱۲۳۴۵۶۷</p>
-      <form id="contactForm" class="contact-form" onsubmit="return false;">
-        <input type="text" id="name" placeholder="نام شما" required>
-        <input type="email" id="email" placeholder="ایمیل" required>
-        <textarea id="message" placeholder="پیام" rows="4"></textarea>
-        <button class="btn primary" id="sendMsg">ارسال پیام</button>
-      </form>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>© <span id="year"></span> جانوموب — تمام حقوق محفوظ است.</div>
-      <div class="socials">
-        <a href="#" aria-label="اینستاگرام">اینستاگرام</a>
-        <a href="#" aria-label="تلگرام">تلگرام</a>
+      <div class="product-card">
+        <img src="images/35w.jpg" alt="آداپتور 35 وات اپل">
+        <h3>آداپتور دو پورت 35W اپل</h3>
+        <p>دو خروجی USB-C | شارژ همزمان آیفون + ایرپاد</p>
+        <span class="price">تماس بگیرید</span>
       </div>
     </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>تماس با ما</h2>
+    <p>📍 تهران</p>
+    <p>📱 ۰۹۱۹۹۹۶۱۲۴۲</p>
+    <p>✉️ info@example.com</p>
+  </section>
+
+  <footer>
+    <p>جانومب — کربلایی</p>
+    <p>📱 ۰۹۱۹۹۹۶۱۲۴۲</p>
   </footer>
-
-  <!-- Cart Modal -->
-  <div id="cartModal" class="cart-modal" aria-hidden="true">
-    <div class="cart-panel">
-      <button id="closeCart" class="close-cart" aria-label="بستن">✕</button>
-      <h3>سبد خرید</h3>
-      <div id="cartItems" class="cart-items"></div>
-      <div class="cart-summary">
-        <div>جمع: <strong id="cartTotal">0</strong> تومان</div>
-        <button class="btn primary" id="checkoutBtn">نهایی‌سازی خرید</button>
-      </div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
 </body>
 </html>
