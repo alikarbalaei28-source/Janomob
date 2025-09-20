@@ -19,6 +19,7 @@ body {
   text-decoration: none;
 }
 .brand { color: #9b5cff; }
+.logo { height: 35px; margin-left: 8px; vertical-align: middle; }
 .hero {
   text-align: center;
   padding: 80px 20px;
@@ -44,12 +45,13 @@ body {
 .product-card {
   background: #121222;
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 20px;
   text-align: center;
+  border: 1px solid rgba(255,255,255,0.1);
 }
 .product-card img {
   max-width: 100%;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-bottom: 15px;
 }
 .price {
@@ -64,8 +66,11 @@ footer {
   background: #111;
   border-top: 1px solid #222;
 }
-footer p:last-child {
-  margin-top: 8px;
-  font-weight: bold;
+.call-link {
   color: #9b5cff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.call-link:hover {
+  text-decoration: underline;
 }
